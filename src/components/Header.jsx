@@ -8,18 +8,8 @@ const imgCollectdMyOrangeLogo = "/assets/logo.svg";
 
 export default function Header() {
   return (
-    <div className="contents relative size-full" data-name="Header" data-node-id="1:1036">
-      <div className="absolute contents left-1/2 top-[-3.37px] translate-x-[-50%]" data-name="background" data-node-id="1:1037">
-        <div className="absolute h-[1053.857px] left-1/2 top-[-3.37px] translate-x-[-50%] w-[2200px]" data-name="background" data-node-id="1:1038">
-          <img alt="" className="block max-w-none size-full" src={imgBackground} />
-        </div>
-        <div className="absolute h-[590px] left-1/2 top-[467.63px] translate-x-[-50%] w-[2200px]" data-name="image 2" data-node-id="1:1039">
-          <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgImage2} />
-        </div>
-        <div className="absolute h-[590px] left-1/2 top-[467.63px] translate-x-[-50%] w-[2200px]" data-name="image 3" data-node-id="1:1040">
-          <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgImage2} />
-        </div>
-      </div>
+    <div className="relative w-full" data-name="Header" data-node-id="1:1036">
+      <div className="relative w-[1900px] mx-auto">
       <div className="absolute left-[calc(50%-391.44px)] top-[566.63px] translate-x-[-50%]" data-name="store buttons" data-node-id="1:1041">
         <div className="relative h-[62px] w-[187.746px]" data-name="Apple App Button" data-node-id="1:1042">
           <img alt="Download on the App Store" className="w-full h-full object-contain" src={imgAppleAppButton} />
@@ -31,19 +21,14 @@ export default function Header() {
         manage modern life.
       </p>
       <div className="absolute contents left-0 top-[37.08px]" data-name="Navigation Bar" data-node-id="1:1045">
-        <div className="absolute h-0 left-1/2 top-[120.34px] translate-x-[-50%] w-[2200px]" data-node-id="1:1046">
-          <div className="absolute inset-[-1px_0_0_0]">
-            <img alt="" className="block max-w-none size-full" src={imgLine1} />
-          </div>
-        </div>
         <div className="absolute contents left-[calc(50%+89.41px)] top-[37.08px] translate-x-[-50%]" data-name="nav" data-node-id="1:1047">
           <div className="absolute flex gap-[40px] left-[calc(50%-608.5px)] top-[48.63px]" data-node-id="1:1048">
-            <p className="font-outfit leading-[24px] not-italic text-[16px] text-white tracking-[0.2px]">Overview</p>
-            <p className="font-outfit leading-[24px] not-italic text-[16px] text-white tracking-[0.2px]">Built for privacy</p>
-            <p className="font-outfit leading-[24px] not-italic text-[16px] text-white tracking-[0.2px]">FAQ</p>
-            <p className="font-outfit leading-[24px] not-italic text-[16px] text-white tracking-[0.2px]">Contact us</p>
+            <p className="font-outfit leading-[24px] not-italic text-[16px] text-white tracking-[0.2px] hover:text-[#FFD166] transition-colors duration-300 cursor-pointer">Overview</p>
+            <p className="font-outfit leading-[24px] not-italic text-[16px] text-white tracking-[0.2px] hover:text-[#FFD166] transition-colors duration-300 cursor-pointer">Built for privacy</p>
+            <p className="font-outfit leading-[24px] not-italic text-[16px] text-white tracking-[0.2px] hover:text-[#FFD166] transition-colors duration-300 cursor-pointer">FAQ</p>
+            <p className="font-outfit leading-[24px] not-italic text-[16px] text-white tracking-[0.2px] hover:text-[#FFD166] transition-colors duration-300 cursor-pointer">Contact us</p>
           </div>
-          <div className="absolute bg-[#4c4065] content-stretch flex gap-[5px] items-center justify-center left-[calc(50%+704.31px)] pb-[13px] pt-[12px] px-[23px] rounded-[25px] top-[37.08px] translate-x-[-50%]" data-name="standard/website" data-node-id="1:1049">
+          <div className="absolute bg-[#4c4065] hover:bg-[#957BCC] content-stretch flex gap-[5px] items-center justify-center left-[calc(50%+704.31px)] pb-[13px] pt-[12px] px-[23px] rounded-[25px] top-[37.08px] translate-x-[-50%] transition-colors duration-300 cursor-pointer" data-name="standard/website" data-node-id="1:1049">
             <p className="font-outfit leading-[22px] not-italic relative shrink-0 text-[18px] text-center text-nowrap text-white" data-node-id="I1:1049;1153:13017">
               Try for free
             </p>
@@ -64,6 +49,7 @@ export default function Header() {
       </div>
       <div className="absolute h-[780px] left-[calc(50%+460.69px)] top-[206.63px] translate-x-[-50%] w-[973.378px]" data-name="image 14" data-node-id="1:1052">
         <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgImage14} />
+      </div>
       </div>
     </div>
   );

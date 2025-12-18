@@ -10,6 +10,10 @@ export default {
         'outfit': ['Outfit', 'sans-serif'],
         'sans': ['Outfit', 'sans-serif'],
       },
+      screens: {
+        'md': '1200px',  // Custom breakpoint at 1200px
+        'lg': '1500px',  // Custom breakpoint at 1500px
+      },
     },
   },
   plugins: [],
